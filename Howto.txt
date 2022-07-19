@@ -1,0 +1,11 @@
+For the Logging Workaround - Install Serilog.Asp.netCore, Then using the package manager console run Install-Package serilog.sinks.console and Install-Package serilog.sinks.file 
+You can also use this to install packages - dotnet add package microsoft.entityframeworkcore
+Download Automapper Extension Microsoft Dependency Injection for the automapper
+
+To see all the queries that passed through the API, go to the App settings(development) and add
+"Microsoft.EntityFrameWorkCore.Database.Command":
+
+Its important to add paging functionality to the last
+If paging is added first the where and other extensions will execute on the small paged set of data instead of on all the data
+
+To return a Metadata A folder is created in the services called PaginationMetaData
