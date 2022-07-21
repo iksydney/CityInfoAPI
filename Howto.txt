@@ -9,3 +9,4 @@ Its important to add paging functionality to the last
 If paging is added first the where and other extensions will execute on the small paged set of data instead of on all the data
 
 To return a Metadata A folder is created in the services called PaginationMetaData
+for the api versioning: you would have to download api versioning from the package manager
